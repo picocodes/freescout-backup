@@ -1,5 +1,9 @@
 #!/bin/bash
 
+set -a
+source .env
+set +a
+
 # Check for required environment variables
 required_vars=(
     "FREESCOUT_DIR"
